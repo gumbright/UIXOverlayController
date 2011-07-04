@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4808A20139319E200B219D9 /* UIXOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4808A1F139319E200B219D9 /* UIXOverlayController.m */; };
+		E4808A2313931ED300B219D9 /* DialogContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4808A2213931ED300B219D9 /* DialogContent.xib */; };
+		E4808A2613931F6F00B219D9 /* DialogContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4808A2513931F6F00B219D9 /* DialogContentViewController.m */; };
+		E4F3E3CA13930FFE00DD9FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3E3C913930FFE00DD9FAD /* UIKit.framework */; };
+		E4F3E3CC13930FFE00DD9FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3E3CB13930FFE00DD9FAD /* Foundation.framework */; };
+		E4F3E3CE13930FFE00DD9FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3E3CD13930FFE00DD9FAD /* CoreGraphics.framework */; };
+		E4F3E3D413930FFE00DD9FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4F3E3D213930FFE00DD9FAD /* InfoPlist.strings */; };
+		E4F3E3D713930FFE00DD9FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3E3D613930FFE00DD9FAD /* main.m */; };
+		E4F3E3DA13930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3E3D913930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.m */; };
+		E4F3E3DD13930FFE00DD9FAD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F3E3DB13930FFE00DD9FAD /* MainWindow.xib */; };
+		E4F3E3E013930FFE00DD9FAD /* UIXOverlayControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3E3DF13930FFE00DD9FAD /* UIXOverlayControllerViewController.m */; };
+		E4F3E3E313930FFE00DD9FAD /* UIXOverlayControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F3E3E113930FFE00DD9FAD /* UIXOverlayControllerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4808A1E139319E200B219D9 /* UIXOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXOverlayController.h; sourceTree = "<group>"; };
+		E4808A1F139319E200B219D9 /* UIXOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXOverlayController.m; sourceTree = "<group>"; };
+		E4808A2213931ED300B219D9 /* DialogContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogContent.xib; sourceTree = "<group>"; };
+		E4808A2413931F6F00B219D9 /* DialogContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogContentViewController.h; sourceTree = "<group>"; };
+		E4808A2513931F6F00B219D9 /* DialogContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogContentViewController.m; sourceTree = "<group>"; };
+		E4F3E3C513930FFE00DD9FAD /* UIXOverlayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIXOverlayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F3E3C913930FFE00DD9FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4F3E3CB13930FFE00DD9FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4F3E3CD13930FFE00DD9FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4F3E3D113930FFE00DD9FAD /* UIXOverlayController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIXOverlayController-Info.plist"; sourceTree = "<group>"; };
+		E4F3E3D313930FFE00DD9FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4F3E3D513930FFE00DD9FAD /* UIXOverlayController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIXOverlayController-Prefix.pch"; sourceTree = "<group>"; };
+		E4F3E3D613930FFE00DD9FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4F3E3D813930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIXOverlayControllerAppDelegate.h; sourceTree = "<group>"; };
+		E4F3E3D913930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIXOverlayControllerAppDelegate.m; sourceTree = "<group>"; };
+		E4F3E3DC13930FFE00DD9FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E4F3E3DE13930FFE00DD9FAD /* UIXOverlayControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIXOverlayControllerViewController.h; sourceTree = "<group>"; };
+		E4F3E3DF13930FFE00DD9FAD /* UIXOverlayControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIXOverlayControllerViewController.m; sourceTree = "<group>"; };
+		E4F3E3E213930FFE00DD9FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIXOverlayControllerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F3E3C213930FFE00DD9FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3E3CA13930FFE00DD9FAD /* UIKit.framework in Frameworks */,
+				E4F3E3CC13930FFE00DD9FAD /* Foundation.framework in Frameworks */,
+				E4F3E3CE13930FFE00DD9FAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4808A1D139319E200B219D9 /* UIXOverlayController files */ = {
+			isa = PBXGroup;
+			children = (
+				E4808A1E139319E200B219D9 /* UIXOverlayController.h */,
+				E4808A1F139319E200B219D9 /* UIXOverlayController.m */,
+			);
+			path = "UIXOverlayController files";
+			sourceTree = SOURCE_ROOT;
+		};
+		E4F3E3BA13930FFE00DD9FAD = {
+			isa = PBXGroup;
+			children = (
+				E4F3E3CF13930FFE00DD9FAD /* UIXOverlayController */,
+				E4F3E3C813930FFE00DD9FAD /* Frameworks */,
+				E4F3E3C613930FFE00DD9FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F3E3C613930FFE00DD9FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3E3C513930FFE00DD9FAD /* UIXOverlayController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F3E3C813930FFE00DD9FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3E3C913930FFE00DD9FAD /* UIKit.framework */,
+				E4F3E3CB13930FFE00DD9FAD /* Foundation.framework */,
+				E4F3E3CD13930FFE00DD9FAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F3E3CF13930FFE00DD9FAD /* UIXOverlayController */ = {
+			isa = PBXGroup;
+			children = (
+				E4808A1D139319E200B219D9 /* UIXOverlayController files */,
+				E4F3E3D813930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.h */,
+				E4F3E3D913930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.m */,
+				E4F3E3DB13930FFE00DD9FAD /* MainWindow.xib */,
+				E4F3E3DE13930FFE00DD9FAD /* UIXOverlayControllerViewController.h */,
+				E4F3E3DF13930FFE00DD9FAD /* UIXOverlayControllerViewController.m */,
+				E4F3E3E113930FFE00DD9FAD /* UIXOverlayControllerViewController.xib */,
+				E4F3E3D013930FFE00DD9FAD /* Supporting Files */,
+				E4808A2213931ED300B219D9 /* DialogContent.xib */,
+				E4808A2413931F6F00B219D9 /* DialogContentViewController.h */,
+				E4808A2513931F6F00B219D9 /* DialogContentViewController.m */,
+			);
+			path = UIXOverlayController;
+			sourceTree = "<group>";
+		};
+		E4F3E3D013930FFE00DD9FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3E3D113930FFE00DD9FAD /* UIXOverlayController-Info.plist */,
+				E4F3E3D213930FFE00DD9FAD /* InfoPlist.strings */,
+				E4F3E3D513930FFE00DD9FAD /* UIXOverlayController-Prefix.pch */,
+				E4F3E3D613930FFE00DD9FAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F3E3C413930FFE00DD9FAD /* UIXOverlayController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F3E3E613930FFE00DD9FAD /* Build configuration list for PBXNativeTarget "UIXOverlayController" */;
+			buildPhases = (
+				E4F3E3C113930FFE00DD9FAD /* Sources */,
+				E4F3E3C213930FFE00DD9FAD /* Frameworks */,
+				E4F3E3C313930FFE00DD9FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIXOverlayController;
+			productName = UIXOverlayController;
+			productReference = E4F3E3C513930FFE00DD9FAD /* UIXOverlayController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F3E3BC13930FFE00DD9FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kickstand Software";
+			};
+			buildConfigurationList = E4F3E3BF13930FFE00DD9FAD /* Build configuration list for PBXProject "UIXOverlayController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4F3E3BA13930FFE00DD9FAD;
+			productRefGroup = E4F3E3C613930FFE00DD9FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F3E3C413930FFE00DD9FAD /* UIXOverlayController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F3E3C313930FFE00DD9FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3E3D413930FFE00DD9FAD /* InfoPlist.strings in Resources */,
+				E4F3E3DD13930FFE00DD9FAD /* MainWindow.xib in Resources */,
+				E4F3E3E313930FFE00DD9FAD /* UIXOverlayControllerViewController.xib in Resources */,
+				E4808A2313931ED300B219D9 /* DialogContent.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F3E3C113930FFE00DD9FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3E3D713930FFE00DD9FAD /* main.m in Sources */,
+				E4F3E3DA13930FFE00DD9FAD /* UIXOverlayControllerAppDelegate.m in Sources */,
+				E4F3E3E013930FFE00DD9FAD /* UIXOverlayControllerViewController.m in Sources */,
+				E4808A20139319E200B219D9 /* UIXOverlayController.m in Sources */,
+				E4808A2613931F6F00B219D9 /* DialogContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4F3E3D213930FFE00DD9FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3E3D313930FFE00DD9FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4F3E3DB13930FFE00DD9FAD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3E3DC13930FFE00DD9FAD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E4F3E3E113930FFE00DD9FAD /* UIXOverlayControllerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F3E3E213930FFE00DD9FAD /* en */,
+			);
+			name = UIXOverlayControllerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4F3E3E413930FFE00DD9FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4F3E3E513930FFE00DD9FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E4F3E3E713930FFE00DD9FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIXOverlayController/UIXOverlayController-Prefix.pch";
+				INFOPLIST_FILE = "UIXOverlayController/UIXOverlayController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4F3E3E813930FFE00DD9FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIXOverlayController/UIXOverlayController-Prefix.pch";
+				INFOPLIST_FILE = "UIXOverlayController/UIXOverlayController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F3E3BF13930FFE00DD9FAD /* Build configuration list for PBXProject "UIXOverlayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F3E3E413930FFE00DD9FAD /* Debug */,
+				E4F3E3E513930FFE00DD9FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F3E3E613930FFE00DD9FAD /* Build configuration list for PBXNativeTarget "UIXOverlayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F3E3E713930FFE00DD9FAD /* Debug */,
+				E4F3E3E813930FFE00DD9FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F3E3BC13930FFE00DD9FAD /* Project object */;
+}
