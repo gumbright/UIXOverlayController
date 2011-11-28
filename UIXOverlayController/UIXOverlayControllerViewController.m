@@ -54,7 +54,7 @@
     
     DialogContentViewController* vc = [[DialogContentViewController alloc] init];
     
-    [overlay presentOverlayOnView:self.view withContent:vc animated:YES];
+    [overlay presentOverlayOnView:self.view withContent:vc animated:DIALOG_ANIMATED];
 }
 
 - (void) overlayRemoved:(UIXOverlayController*) overlayController

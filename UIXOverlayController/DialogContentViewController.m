@@ -57,6 +57,16 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (void) viewDidAppear:(BOOL)animated
+{
+    NSLog(@"appear");
+}
+
+- (void) viewDidDisappear:(BOOL)animated
+{
+    NSLog(@"disappear");
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -66,12 +76,12 @@
 
 - (IBAction) yesPressed:(id) sender
 {
-    [self.overlayController dismissOverlay:YES];
+    [self.overlayController dismissOverlay:DIALOG_ANIMATED];
 }
 
 - (IBAction) noPressed:(id) sender
 {
-    [self.overlayController dismissOverlay:YES];
+    [self.overlayController dismissOverlay:DIALOG_ANIMATED];
 }
 
 @end

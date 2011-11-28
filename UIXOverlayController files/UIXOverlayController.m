@@ -150,6 +150,10 @@
                         {
                             [overlayDelegate overlayContentDisplayed:self];
                         }
+                        if ([[UIDevice currentDevice].systemVersion floatValue] < 5.0)
+                        {
+                            [_contentController viewDidAppear:YES];
+                        }
     }];
     
 }
@@ -176,6 +180,10 @@
 ///////////////////////////////////////////////
 - (void)maskFadeOutComplete:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
 {
+    if ([[UIDevice currentDevice].systemVersion floatValue] < 5.0)
+    {
+        [_contentController viewDidDisappear:YES];
+    }
     [self detachOverlay];
 }	
 
@@ -223,6 +231,11 @@
 		_contentController.view.frame = placement;
 		
 		[maskView addSubview:_contentController.view];
+        
+        if ([[UIDevice currentDevice].systemVersion floatValue] < 5.0)
+        {
+            [contentController viewDidAppear:NO];
+        }
 	}
 }
 
@@ -260,6 +273,10 @@
 	}
 	else
 	{
+        if ([[UIDevice currentDevice].systemVersion floatValue] < 5.0)
+        {
+            [_contentController viewDidDisappear:NO];
+        }
         [self detachOverlay];
 	}	
 }
