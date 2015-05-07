@@ -46,7 +46,7 @@
 	UIView* _parent;
 	UIViewController* _contentController;
 	
-	NSObject<UIXOverlayControllerDelegate>* overlayDelegate;
+	NSObject<UIXOverlayControllerDelegate>* __weak overlayDelegate;
 	
 	UIXOverlayMaskView* maskView;
 }
@@ -57,12 +57,12 @@
 - (void) dismissOverlay:(BOOL) animated;
 - (void) willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
 
-@property (nonatomic, retain, readonly)  UIView* parent;
+@property (nonatomic, strong, readonly)  UIView* parent;
 @property (assign) BOOL dismissUponTouchMask;
 
-@property (nonatomic, retain) UIColor* maskColor;
+@property (nonatomic, strong) UIColor* maskColor;
 
-@property (nonatomic, assign) NSObject<UIXOverlayControllerDelegate>* overlayDelegate;
+@property (nonatomic, weak) NSObject<UIXOverlayControllerDelegate>* overlayDelegate;
 
 @end
 
@@ -73,6 +73,6 @@
 {
 }
 
-@property (nonatomic, retain) UIXOverlayController* overlayController;
+@property (nonatomic, strong) UIXOverlayController* overlayController;
 
 @end

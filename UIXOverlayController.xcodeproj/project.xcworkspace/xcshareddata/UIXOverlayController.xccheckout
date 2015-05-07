@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11E3901B-471E-42EB-BD77-31A6B260190A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIXOverlayController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E8F9426B2A5756A24B01579B01065027BCEF5B6</key>
+		<string>https://github.com/gumbright/UIXOverlayController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIXOverlayController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E8F9426B2A5756A24B01579B01065027BCEF5B6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gumbright/UIXOverlayController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E8F9426B2A5756A24B01579B01065027BCEF5B6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E8F9426B2A5756A24B01579B01065027BCEF5B6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIXOverlayController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

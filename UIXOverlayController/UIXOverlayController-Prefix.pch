@@ -12,6 +12,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-#define DIALOG_ANIMATED NO
+#define DIALOG_ANIMATED YES
 
 #endif

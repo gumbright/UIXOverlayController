@@ -11,10 +11,6 @@
 
 @implementation UIXOverlayControllerViewController
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -59,7 +55,6 @@
 
 - (void) overlayRemoved:(UIXOverlayController*) overlayController
 {
-    [overlay release];
     overlay = nil;
 }
 

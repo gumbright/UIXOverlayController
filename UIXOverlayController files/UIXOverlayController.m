@@ -89,14 +89,10 @@
 ///////////////////////////////////////////////
 - (void)dealloc 
 {
-	[_parent release];
     if (maskView.superview != nil)
     {
         [maskView removeFromSuperview];
     }
-	[_contentController release];
-    self.maskColor = nil;
-    [super dealloc];
 }
 
 ///////////////////////////////////////////////
@@ -166,7 +162,6 @@
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	[maskView removeFromSuperview];
     maskView = nil;
-	[_contentController release];
 	_contentController = nil;
     
     if ([overlayDelegate respondsToSelector:@selector(overlayRemoved:)])
@@ -192,8 +187,8 @@
 ///////////////////////////////////////////////
 - (void) presentOverlayOnView:(UIView*) parentView withContent:(UIXOverlayContentViewController*) contentController animated:(BOOL) animated
 {
-	_parent = [parentView retain];
-	_contentController = [contentController retain];
+	_parent = parentView;
+	_contentController = contentController;
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(maskTapped) name:DISMISS_MASK object:nil];
 	
 	//create mask
@@ -287,10 +282,5 @@
 
 @synthesize overlayController;
 
-- (void) dealloc
-{
-    self.overlayController = nil;
-    [super dealloc];
-}
 
 @end
